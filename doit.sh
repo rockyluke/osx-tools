@@ -122,7 +122,7 @@ then
 	brew install nmap
     fi
 
-    # shellcheck
+    # shell check
     # http://www.shellcheck.net
     brew list shellcheck > /dev/null 2>&1
     if [ ${?} -ne 0 ]
