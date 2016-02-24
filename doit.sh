@@ -77,6 +77,7 @@ then
     if [ ${?} -ne 0 ]
     then
 	brew install emacs
+	brew install homebrew/emacs/dockerfile-mode
 	brew install homebrew/emacs/json-mode
 	brew install homebrew/emacs/markdown-mode
 	brew install homebrew/emacs/php-mode

@@ -25,6 +25,7 @@ $ ./doit.sh
 - [csshx](https://github.com/brockgr/csshx)
 - [curl](https://curl.haxx.se/)
 - [emacs](https://www.gnu.org/software/emacs/)
+- [emacs](https://www.gnu.org/software/emacs/) [dockerfile-mode](https://github.com/spotify/dockerfile-mode)
 - [emacs](https://www.gnu.org/software/emacs/) [json-mode](https://github.com/joshwnj/json-mode)
 - [emacs](https://www.gnu.org/software/emacs/) [markdown-mode](http://jblevins.org/projects/markdown-mode/)
 - [emacs](https://www.gnu.org/software/emacs/) [php-mode](https://github.com/ejmr/php-mode)
