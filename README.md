@@ -38,6 +38,26 @@ $ ./doit.sh
 - [unrar](http://www.rarlab.com)
 - [wget](https://www.gnu.org/software/wget/)
 
+# Configuration
+
+## emacs
+
+Add to following lines to your ~/.emacs:
+
+```lisp
+(let ((default-directory  "/usr/local/share/emacs/site-lisp/"))
+  (normal-top-level-add-subdirs-to-load-path))
+
+  (autoload 'json-mode "json-mode" t)
+  (add-to-list 'auto-mode-alist '("\.json$" . json-mode))
+
+  (autoload 'markdown-mode "markdown-mode" t)
+  (add-to-list 'auto-mode-alist '("\\.md\\'" . markdown-mode))
+
+  (autoload 'php-mode "php-mode" t)
+  (add-to-list 'auto-mode-alist '("\.php$" . php-mode))
+```
+
 # Millipede
 
 ```
