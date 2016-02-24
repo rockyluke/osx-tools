@@ -48,9 +48,9 @@ $ ./doit.sh
    ╚═(███)═╝
 ```
 
-- [www.apple.com/opensource](https://www.apple.com/opensource/)
 - [developer.apple.com/opensource](https://developer.apple.com/opensource/)
 - [github.com/apple](https://github.com/apple)
+- [www.apple.com/opensource](https://www.apple.com/opensource/)
 
 [license-img]: https://img.shields.io/badge/license-ISC-blue.svg
 [build-img]: https://travis-ci.org/rockyluke/osx-tools.svg?branch=master
