@@ -1,6 +1,24 @@
 # osx-tools ![License][license-img] [![Build Status][build-img]][build-url] ![Yosemite][10-10-img] ![El Capitan][10-11-img]
 
-# Tools
+# Disclaimer
+
+Read carefully the manual before using any commands on OS X.
+
+```bash
+$ man brew
+$ man man
+$ man sudo
+```
+
+# Usage
+
+It's quite simple :)
+
+```bash
+$ ./doit.sh
+```
+
+# Tools Installed
 
 - [apg](http://www.adel.nursat.kz/apg/)
 - [brew](http://brew.sh/)
