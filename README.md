@@ -35,6 +35,7 @@ $ ./doit.sh
 - [mtr](https://www.bitwizard.nl/mtr/)
 - [nmap](https://nmap.org/)
 - [shellcheck](http://www.shellcheck.net)
+- [unrar](http://www.rarlab.com)
 - [wget](https://www.gnu.org/software/wget/)
 
 # Millipede

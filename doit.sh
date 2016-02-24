@@ -131,6 +131,14 @@ then
 	brew install shellcheck
     fi
 
+    # unrar
+    # http://www.rarlab.com
+    brew list unrar > /dev/null 2>&1
+    if [ ${?} -ne 0 ]
+    then
+	brew install unrar
+    fi
+
     # wget
     # https://www.gnu.org/software/wget/
     brew list wget > /dev/null 2>&1
