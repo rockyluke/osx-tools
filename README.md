@@ -1,8 +1,8 @@
-# osx-tools ![License][license-img] [![Build Status][build-img]][build-url] ![Yosemite][10-10-img] ![El Capitan][10-11-img]
+# osx-tools ![License][license-img] [![Build Status][build-img]][build-url] ![Yosemite][10-10-img] ![El Capitan][10-11-img] ![Sierra][10-12-img]
 
 # Disclaimer
 
-Read carefully the manual before using any commands on OS X.
+Read carefully the manual before using any commands on macOS.
 
 ```bash
 $ man brew
