@@ -83,12 +83,25 @@ then
 	brew install homebrew/emacs/php-mode
     fi
 
-    # gnupg
+    # gnupg2
     # https://www.gnupg.org/
-    brew list gnupg > /dev/null 2>&1
+    brew list gnupg2 > /dev/null 2>&1
     if [ ${?} -ne 0 ]
     then
-	brew install gnupg
+	brew install gnupg2
+	brew install gpg-agent
+	brew install pinentry-mac
+	cat <<EOF
+################################################################################
+#
+#
+# You need to add te following line in ${HOME}/.gnupg/gpg-agent.conf
+#
+# => pinentry-program /usr/local/bin/pinentry-mac
+#
+#
+################################################################################
+EOF
     fi
 
     # htop
