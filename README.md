@@ -29,7 +29,7 @@ $ ./doit.sh
 - [emacs](https://www.gnu.org/software/emacs/) [json-mode](https://github.com/joshwnj/json-mode)
 - [emacs](https://www.gnu.org/software/emacs/) [markdown-mode](http://jblevins.org/projects/markdown-mode/)
 - [emacs](https://www.gnu.org/software/emacs/) [php-mode](https://github.com/ejmr/php-mode)
-- [gnupg](https://www.gnupg.org/)
+- [gnupg2](https://www.gnupg.org/)
 - [htop](http://hisham.hm/htop/)
 - [httpie](http://httpie.org/)
 - [mtr](https://www.bitwizard.nl/mtr/)
@@ -79,3 +79,4 @@ Add to following lines to your ~/.emacs:
 [build-url]: https://travis-ci.org/rockyluke/osx-tools
 [10-10-img]: https://img.shields.io/badge/osx-10.10-green.svg
 [10-11-img]: https://img.shields.io/badge/osx-10.11-green.svg
+[10-12-img]: https://img.shields.io/badge/osx-10.12-green.svg
